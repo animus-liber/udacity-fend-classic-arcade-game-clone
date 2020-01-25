@@ -9,7 +9,7 @@ Clone the GitHub repository and open the index.html
 ```
 $ git clone
 "https://github.com/animus-liber/udacity-fend-classic-arcade-game-clone.git"
-$ cd "frontend-nanodegree-arcade-game"
+$ cd "udacity-fend-classic-arcade-game-clone"
 $ index.html`
 ```
 
@@ -17,7 +17,7 @@ $ index.html`
 #### The Objective
 You shall reach the "Golden Star Beam" on the river without being eaten
 by those speeding bugs coming out of nowhere.<br />
-But be careful! The current is strong and the "Golden Star Beam" cannot beam you up if you're wet. (The technology needs imporvement... we know..)<br />
+But be careful! The current is strong and the "Golden Star Beam" cannot beam you up if you're wet. (The technology needs improvement... we know..)<br />
 Once you reached the "Golden Star Beam, the game is won".
 
 #### Controls
@@ -38,7 +38,7 @@ in the list.
 
 
 ### Notes
-Suporting material used for this project:
+Supporting material used for this project:
  - https://udacity.com
  - https://w3schools.com
  - https://www.diigo.com/outliner/fj3m65/Udacity-Classic-Arcade-Game-Project
