@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Classic Arcade Game Clone - by David Porter</title>
+  <meta name="description" content="Classic Arcade Game Clone for UdaCity concentrating
+  on Object oriented JS">
+  <link rel="stylesheet" href="css/fontawesome-free-5.1.0-web/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header with game stats and reset button -->
+  <header class="app-header">
+    <h1 class="app-title">Classic Arcade Game Clone</h1>
+    <article class="game-stats">
+      <ul class="stars">
+      </ul>
+      <span class="restart-game">Play <i class="fas fa-redo"></i> Again</span>
+    </article>
+  </header>
+
+  <!-- Main section -->
+  <!-- Canvas is drawn though JS. Check js/*.js for info -->
+  <main>
+    <!-- Canvas where game is drawn and running -->
+    <article class="canvas">
+    </article>
+
+    <!-- Player Selection -->
+    <article class="player-list">
+    </article>
+    <!-- Modal including game stats, is shown after game ends -->
+    <article class="modal hide">
+      <div class="modal-content">
+        <!-- Title will be filled based on game loose/win -->
+        <h3></h3>
+        <section class="game-stats">
+          <ul class="stars">
+          </ul>
+          <span class="restart-game">Play <i class="fas fa-redo"></i> Again</span>
+        </section>
+      </div>
+    </article>
+  </main>
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
